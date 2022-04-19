@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime:ital@1&family=GFS+Didot&display=swap');
+
+html body {
+   background: #373B44;  /* fallback for old browsers */
+   background: -webkit-linear-gradient(to right, #4286f4, #373B44);  /* Chrome 10-25, Safari 5.1-6 */
+   background: linear-gradient(to right, #4286f4, #373B44); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+   margin: 0;
+   padding: 0;
+}
+ .relogio {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+ .display {
+    background-color: white;
+    width: 655px;
+    height: 300;
+    text-align: center;
+    line-height: 300px;
+    border-radius: 15px;
+    color: black;
+    font-size: 8.5rem;
+    font-family: 'Courier Prime', monospace;
+  }
+
+ footer {
+    font-family: 'GFS Didot', serif;
+     font-size: 1.5rem;
+     margin-top: 10px;
+     color: black;
+ }
